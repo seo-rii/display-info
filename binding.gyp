@@ -5,7 +5,7 @@
       "conditions":[
         ["OS=='win'", {
           "sources": [
-            "src/main.cc"
+            "src/main.cpp"
           ]
         }]
       ],
