@@ -1,0 +1,35 @@
+{
+  "name": "display-info",
+  "version": "0.0.1",
+  "description": "Get display information for node.js",
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "display",
+    "information",
+    "resolution",
+    "frame rate"
+  ],
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "install": "node-gyp rebuild",
+    "test": "npm run-script build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seo-Rii/display-info.git"
+  },
+  "author": "seorii <studioSeoRii@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seo-Rii/display-info/issues",
+    "email": "studioSeoRii@gmail.com"
+  },
+  "homepage": "https://github.com/Seo-Rii/display-info#readme",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-gyp": "^7.0.0",
+    "node-addon-api": "^3.0.0"
+  }
+}
