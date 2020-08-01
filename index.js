@@ -1,4 +1,9 @@
-const {getMonitorCount: getMonitorCount} = require("bindings")("display-info-wrapper");
+const {getMonitorInfo: WgetMonitorInfo} = require("bindings")("display-info-wrapper");
 
 
-console.log(getMonitorCount());
+function getMonitorInfo() {
+    let returnObj = WgetMonitorInfo();
+    return returnObj;
+}
+
+exports.getMonitorInfo = getMonitorInfo;
